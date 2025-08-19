@@ -1,0 +1,25 @@
+attribute_name = "Etnia"
+before_value = "A sua etnia é "
+list_value = [
+    "multirracial",
+    "mista entre vários povos",
+    "nativo-americana",
+    "indígena-brasileiro",
+    "hispânica",
+    "latina",
+    "afro-latina",
+    "brasileira",
+    "branca",
+    "caucasiana",
+    "negra",
+    "de ascendência européia",
+    "de ascendência do Norte da África",
+    "de ascendência da Africa Subsaariana",
+    "de ascendência do Oriente Médio",
+    "de ascendência do Sul da Ásia",
+    "de ascendência do Sudeste Asiático",
+    "de ascendência do Leste Asiático",
+    "das ilhas do Pacífico"
+]
+after_value = "."
+separator = " "

@@ -1,0 +1,19 @@
+attribute_name = "Parte de Baixo"
+before_value = ""
+list_value = [
+    "biquíni",
+    "calcinha",
+    "cueca",
+    "shorts",
+    "bermuda",
+    "saia curta",
+    "saia longa",
+    "calça legging",
+    "calça de moletom",
+    "calça jeans",
+    "calça cargo",
+    "calça social",
+    "jardineira"
+]
+after_value = ""
+separator = " "

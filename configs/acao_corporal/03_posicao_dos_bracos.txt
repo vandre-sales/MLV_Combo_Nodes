@@ -1,0 +1,29 @@
+attribute_name = "Posição dos braços"
+before_value = "Seus braços estão "
+list_value = [
+    "relaxados para baixo",
+    "cruzados uns nos outros",
+    "abraçando o próprio corpo",
+    "escondidos atrás do corpo",
+    "apontando para frente",
+    "apontando para si mesmo",
+    "em sinal de oração",
+    "em gesto de cumprimento",
+    "segurando um objeto imaginário",
+    "fazendo um coração",
+    "dobrados com as mãos nos ombros",
+    "estendidos para os lados",
+    "em T-pose",
+    "como um equilibrista",
+    "imitando um avião",
+    "para cima com as mãos abertas",
+    "levantados em comemoração",
+    "em gesto de high-five",
+    "em posição de luta",
+    "em pose de super herói",
+    "em posição de dança",
+    "em estilo de fisiculturista",
+    "como um robô"
+]
+after_value = ""
+separator = " "

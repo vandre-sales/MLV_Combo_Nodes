@@ -1,0 +1,15 @@
+attribute_name = "Body Position"
+before_value = ""
+list_value = [
+    "standing up straight",
+    "leaning against a wall",
+    "kneeling on one knee",
+    "sitting on a chair",
+    "sitting on the floor",
+    "crouching down low",
+    "lying on their back",
+    "in a fetal position",
+    "in a dynamic action pose"
+]
+after_value = ""
+separator = ", "

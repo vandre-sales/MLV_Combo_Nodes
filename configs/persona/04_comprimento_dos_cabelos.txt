@@ -1,0 +1,10 @@
+attribute_name = "Comprimento dos cabelos"
+before_value = "Seus cabelos são "
+list_value = [
+    "raspados",
+    "curtos",
+    "na altura dos ombros",
+    "longos"
+]
+after_value = ""
+separator = ""

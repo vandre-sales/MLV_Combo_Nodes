@@ -1,0 +1,22 @@
+attribute_name = "Lugar"
+before_value = "A pessoa está "
+list_value = [
+    "no pico de uma montanha",
+    "em uma floresta densa",
+    "em uma praia",
+    "em um parque tranquilo",
+    "em uma galeria de rua",
+    "em uma calçada movimentada",
+    "em uma arquibancada de estádio de futebol",
+    "em uma biblioteca silenciosa",
+    "em um teatro elegante",
+    "em uma academia de ginástica",
+    "em um shopping center",
+    "em um aeroporto internacional",
+    "em uma farmácia",
+    "em um pet shop",
+    "em um estúdio fotográfico",
+    "em um escritório moderno"
+]
+after_value = ""
+separator = " "

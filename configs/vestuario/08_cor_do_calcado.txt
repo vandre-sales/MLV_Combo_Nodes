@@ -1,0 +1,19 @@
+attribute_name = "Cor do calçado"
+before_value = "de cor "
+list_value = [
+    "branca",
+    "bege (#DFD1A7)",
+    "ouro (#fad839)",
+    "laranja-claro (#fcd299)",
+    "laranja (#d47328)",
+    "verde-clara (#7dce73)",
+    "azul-clara (#307FE2)",
+    "lavanda (#ad96db)",
+    "púrpura (#7152a2)",
+    "vermelha (#EB3C4D)",
+    "vinho (#910048)",
+    "bordô (#5A2632)",
+    "preta"
+]
+after_value = "."
+separator = " "

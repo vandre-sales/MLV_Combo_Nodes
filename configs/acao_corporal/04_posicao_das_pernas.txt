@@ -1,0 +1,20 @@
+attribute_name = "Posição das pernas"
+before_value = "e suas pernas estão "
+list_value = [
+    "simétricas",
+    "esticadas",
+    "dobradas",
+    "flexionadas",
+    "cruzadas",
+    "na ponta dos pés",
+    "em posição de bailarina",
+    "dançando",
+    "prontas para correr",
+    "inquietas",
+    "tremendo",
+    "paralisadas",
+    "cansadas",
+    "saradas"
+]
+after_value = "."
+separator = " "

@@ -1,0 +1,13 @@
+attribute_name = "Estilo de fotografia"
+before_value = "Uma fotografia "
+list_value = [
+    "amadora",
+    "profissional",
+    "casual",
+    "espontânea",
+    "jornalística",
+    "de retrato",
+    "de moda"
+]
+after_value = " de"
+separator = " "

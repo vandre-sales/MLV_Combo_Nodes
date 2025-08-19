@@ -1,0 +1,26 @@
+attribute_name = "Emoção do rosto"
+before_value = "enquanto demostra uma emoção de "
+list_value = [
+    "alegria",
+    "medo",
+    "nojo",
+    "raiva",
+    "surpresa",
+    "tristeza",
+    "admiração",
+    "amor",
+    "antecipação",
+    "ciúme",
+    "confiança",
+    "curiosidade",
+    "decepção",
+    "desespero",
+    "esperança",
+    "gratidão",
+    "inveja",
+    "orgulho",
+    "remorso",
+    "vergonha"
+]
+after_value = " em seu rosto."
+separator = " "

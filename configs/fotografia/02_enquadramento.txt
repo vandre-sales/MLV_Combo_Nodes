@@ -1,0 +1,17 @@
+attribute_name = "Enquadramento"
+before_value = ""
+list_value = [
+    "plano geral",
+    "corpo inteiro",
+    "corpo inteiro dos pés à cabeça",
+    "plano americano",
+    "plano médio",
+    "primeiro plano",
+    "close-up",
+    "plano detalhe",
+    "vista aérea",
+    "plano holandês",
+    "plano subjetivo"
+]
+after_value = " de"
+separator = " "

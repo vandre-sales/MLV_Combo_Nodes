@@ -1,0 +1,18 @@
+attribute_name = "Cor da luz"
+before_value = "A iluminação tem tonalidade de "
+list_value = [
+    "luz de velas",
+    "vermelho intenso",
+    "amarelo fogueira",
+    "luz do amanhecer",
+    "branco quente 2700k",
+    "verde esmeralda",
+    "luz solar do meio dia",
+    "branco frio 6000k",
+    "flash fotográfico",
+    "azul celeste",
+    "luar noturno",
+    "degradê do azul ao violeta"
+]
+after_value = ""
+separator = " "

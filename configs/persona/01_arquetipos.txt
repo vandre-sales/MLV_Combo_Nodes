@@ -1,0 +1,29 @@
+attribute_name="Arquétipos"
+before_value=""
+list_value=[
+    "um bebê de 10 meses",
+    "uma criança de 2 anos",
+    "uma criança na casa dos 7 anos",
+    "uma menina na casa dos 10 anos",
+    "um menino na casa dos 10 anos",
+    "uma garota adolescente na casa dos 15 anos",
+    "um rapaz adolescente na casa dos 15 anos",
+    "uma jovem mulher Geração Z na casa dos 20 anos",
+    "um jovem homem Geração Z na casa dos 20 anos",
+    "uma pessoa jovem Geração Z na casa dos 20 anos",
+    "uma pessoa não-binária na casa dos 20 anos",
+    "uma mulher Geração Millennial na casa dos 30 anos",
+    "um homem Geração Millennial na casa dos 30 anos",
+    "uma pessoa andrógina na casa dos 30 anos",
+    "uma pessoa Geração Millennial na casa dos 30 anos",
+    "uma mulher de meia-idade Geração X na casa dos 40 anos",
+    "um homem de meia-idade Geração X na casa dos 40 anos",
+    "uma pessoa de meia-idade Geração X na casa dos 40 anos",
+    "uma mulher mais velha Baby Boomer na casa dos 60 anos",
+    "uma pessoa mais velha Baby Boomer na casa dos 60 anos",
+    "um homem mais velho Baby Boomer na casa dos 70 anos",
+    "uma mulher idosa na casa dos 80 anos",
+    "um homem idoso na casa dos 80 anos"
+]
+after_value="."
+separator=" "

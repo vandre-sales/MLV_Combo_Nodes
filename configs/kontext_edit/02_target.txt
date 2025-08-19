@@ -1,0 +1,16 @@
+attribute_name = "Target"
+before_value = ""
+list_value = [
+    "the person",
+    "the subject",
+    "the figure",
+    "the specified subject",
+    "the man",
+    "the woman",
+    "the main character",
+    "the person position to",
+    "the character on the left",
+    "the character on the right"
+]
+after_value = ""
+separator = " "

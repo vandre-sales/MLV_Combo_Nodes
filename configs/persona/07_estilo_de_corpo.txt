@@ -1,0 +1,31 @@
+attribute_name = "Estilo de corpo"
+before_value = "A forma do corpo é "
+list_value = [
+    "anoréxico",
+    "magro demais",
+    "magro",
+    "esguio",
+    "esbelto",
+    "peso-mosca",
+    "bem-constituido",
+    "musculoso",
+    "cuvilíneo",
+    "com curvas",
+    "peso-médio",
+    "ligeiramente acima do peso",
+    "cheinho",
+    "de ossos largos",
+    "parrudo",
+    "robusto",
+    "corpulento",
+    "acima do peso",
+    "gordinho",
+    "barrigudinho",
+    "flácido",
+    "volumoso",
+    "gordo",
+    "obeso",
+    "com obesidade mórbida"
+]
+after_value = " e"
+separator = " "

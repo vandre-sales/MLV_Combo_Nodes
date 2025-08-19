@@ -1,0 +1,14 @@
+attribute_name = "View / Angle"
+before_value = ""
+list_value = [
+    "facing the camera directly",
+    "in a three-quarter view",
+    "in a side profile view",
+    "looking over their shoulder",
+    "viewed from behind",
+    "at eye-level",
+    "viewed from a high angle",
+    "viewed from a low angle"
+]
+after_value = ""
+separator = ", "

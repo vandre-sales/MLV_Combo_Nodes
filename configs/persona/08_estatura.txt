@@ -1,0 +1,9 @@
+attribute_name = "Estatura"
+before_value = "possui estatura "
+list_value = [
+    "baixa",
+    "mediana",
+    "alta"
+]
+after_value = "."
+separator = " "

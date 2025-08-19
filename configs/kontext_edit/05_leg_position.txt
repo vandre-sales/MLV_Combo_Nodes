@@ -1,0 +1,16 @@
+attribute_name = "Leg Position"
+before_value = ""
+list_value = [
+    "with legs straight",
+    "with legs bent",
+    "with legs stretched out",
+    "with legs crossed",
+    "in a symmetrical stance",
+    "standing on tiptoes",
+    "in a running pose",
+    "ready to sprint",
+    "in a dancing pose",
+    "in a ballet pose (plié)"
+]
+after_value = ""
+separator = ", "

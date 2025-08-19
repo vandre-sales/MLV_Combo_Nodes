@@ -1,0 +1,15 @@
+attribute_name = "Cor dos olhos"
+before_value = "Seus olhos são de tom "
+list_value = [
+    "azul",
+    "azul-claro",
+    "azul-gelo",
+    "verde",
+    "de ambar",
+    "castanhos",
+    "castanho-escuro",
+    "cinzento",
+    "cinza-azulado"
+]
+after_value = ". "
+separator = " "

@@ -1,0 +1,21 @@
+attribute_name = "Direção "
+before_value = "com incidência "
+list_value = [
+    "zenital",
+    "nadir",
+    "vertical para baixo",
+    "frontal",
+    "do fundo para frente",
+    "contraluz",
+    "lateral",
+    "lateral da esquerda para a direita",
+    "oblíqua",
+    "ambiente",
+    "difusa",
+    "mista",
+    "especular",
+    "penumbral",
+    "Rembrandt"
+]
+after_value = "."
+separator = " "

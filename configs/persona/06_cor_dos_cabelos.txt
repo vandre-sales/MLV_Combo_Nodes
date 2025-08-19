@@ -1,0 +1,18 @@
+attribute_name = "Cor dos cabelos"
+before_value = "e "
+list_value = [
+    "brancos",
+    "grisalhos",
+    "loiros",
+    "castanhos-claros",
+    "castanhos",
+    "ruivos",
+    "pretos",
+    "descoloridos",
+    "platinados",
+    "tingidos",
+    "coloridos",
+    "azuis"
+]
+after_value = "."
+separator = " "

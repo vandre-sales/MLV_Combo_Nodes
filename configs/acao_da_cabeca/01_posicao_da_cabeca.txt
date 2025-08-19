@@ -1,0 +1,15 @@
+attribute_name = "Posição da cabeça"
+before_value = "A sua cabeça está "
+list_value = [
+    "alinhada",
+    "centralizada",
+    "equilibrada",
+    "firme",
+    "estável",
+    "ligeiramente para baixo",
+    "ligeiramente para cima",
+    "levemente inclinada para a esquerda",
+    "levemente inclinada para a direita"
+]
+after_value = ""
+separator = " "

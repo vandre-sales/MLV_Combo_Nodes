@@ -1,0 +1,14 @@
+attribute_name = "Posição do corpo"
+before_value = "O seu corpo está em uma posição "
+list_value = [
+    "suspenso",
+    "em pé",
+    "inclinado",
+    "agachado",
+    "ajoelhado",
+    "sentado",
+    "deitado",
+    "fetal"
+]
+after_value = ""
+separator = " "

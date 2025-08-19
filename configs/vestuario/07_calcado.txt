@@ -1,0 +1,18 @@
+attribute_name = "Calçado"
+before_value = "e "
+list_value = [
+    "chinelos",
+    "sandálias brasileiras de modelo 'Havaianas'",
+    "rasteirinhas",
+    "sandálias",
+    "tênis",
+    "chuteiras",
+    "sapatilhas",
+    "mocassim",
+    "botas",
+    "sapatos de couro",
+    "sapatos de salto alto",
+    "scarpins"
+]
+after_value = ""
+separator = " "

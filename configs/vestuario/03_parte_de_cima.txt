@@ -1,0 +1,19 @@
+attribute_name = "Parte de Cima"
+before_value = "Está vestindo "
+list_value = [
+    "sutiã",
+    "top",
+    "regata",
+    "t-shirt básica",
+    "t-shirt feminina baby-look",
+    "blusa",
+    "camisa pólo",
+    "camisa de manga comprida",
+    "colete",
+    "cardigã",
+    "moletom",
+    "jaqueta",
+    "casaco"
+]
+after_value = ""
+separator = " "

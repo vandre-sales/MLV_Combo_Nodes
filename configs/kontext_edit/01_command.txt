@@ -1,0 +1,14 @@
+attribute_name = "Command"
+before_value = ""
+list_value = [
+    "Make",
+    "Change",
+    "Alter",
+    "Modify",
+    "Adjust",
+    "Set",
+    "Position",
+    "Pose"
+]
+after_value = ""
+separator = " "

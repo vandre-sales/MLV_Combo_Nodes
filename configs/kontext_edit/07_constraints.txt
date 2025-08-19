@@ -1,0 +1,15 @@
+attribute_name = "Constraints"
+before_value = ""
+list_value = [
+    "without modifying the camera angle",
+    "ensuring the environment is identical",
+    "without changing the background",
+    "keeping background elements unchanged",
+    "while keeping the original lighting",
+    "do not alter the color palette",
+    "the character's identity must be preserved",
+    "maintaining the same clothing",
+    "preserving the original expression"
+]
+after_value = ""
+separator = ", "

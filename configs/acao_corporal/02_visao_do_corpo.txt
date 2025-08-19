@@ -1,0 +1,18 @@
+attribute_name = "Visão do corpo"
+before_value = "visto "
+list_value = [
+    "de frente na altura dos olhos",
+    "oblíquo frontal direito",
+    "de perfil direito",
+    "de lado na altura dos olhos",
+    "oblíquo traseiro direito",
+    "traseiro",
+    "oblíquo traseiro esquerdo",
+    "de perfil esquerdo",
+    "oblíquo frontal esquerdo",
+    "por cima",
+    "de cima na altura dos olhos",
+    "de baixo"
+]
+after_value = "."
+separator = " "

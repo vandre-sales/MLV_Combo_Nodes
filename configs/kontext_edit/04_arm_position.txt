@@ -1,0 +1,16 @@
+attribute_name = "Arm Position"
+before_value = ""
+list_value = [
+    "with arms relaxed downwards",
+    "with hands on hips",
+    "hugging their own body",
+    "with arms crossed over the chest",
+    "with hands in prayer pose",
+    "pointing forward with one arm",
+    "waving one hand",
+    "in a fighting stance",
+    "with arms outstretched (T-pose)",
+    "with arms raised in celebration"
+]
+after_value = ""
+separator = ", "

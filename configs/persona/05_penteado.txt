@@ -1,0 +1,27 @@
+attribute_name = "Penteado"
+before_value = ", "
+list_value = [
+    "careca",
+    "crespos",
+    "de estilo afro",
+    "lisos",
+    "ondulados",
+    "com dreadlocks",
+    "de tranças",
+    "com franja",
+    "de estilo bob",
+    "de estilo degrade",
+    "de estilo moicano",
+    "de estilo mullet",
+    "de estilo pixie",
+    "de estilo undercut",
+    "em camadas",
+    "penteados para trás",
+    "presos com coque acima da cabeça",
+    "presos com coque atrás da cabeça",
+    "presos com rabo de cavalo",
+    "repartidos ao meio",
+    "repartidos de lado"
+]
+after_value = ""
+separator = " "

@@ -1,0 +1,22 @@
+attribute_name = "Plano de fundo"
+before_value = ""
+list_value = [
+    "com fundo infinito preto sólido",
+    "com fundo infinito cinza médio sólido",
+    "com fundo infinito branco sólido",
+    "com fundo infinito chromakey vermelho",
+    "com fundo infinito chromakey verde",
+    "com fundo infinito chromakey azul",
+    "com o fundo desfocado",
+    "com efeito bokeh",
+    "em um dia ensolarado",
+    "em um dia chuvoso",
+    "durante a noite",
+    "sob um céu estrelado",
+    "durante uma tempestade de raios",
+    "com uma cachoeira cristalina ao fundo",
+    "com uma aurora boreal ao fundo",
+    "em uma dimensão abstrata ao fundo"
+]
+after_value = "."
+separator = " "
