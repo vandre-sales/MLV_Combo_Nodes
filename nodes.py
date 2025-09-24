@@ -5,13 +5,13 @@ import toml
 import re
 import random
 
-# Cache global para evitar leituras de disco repetidas durante a sessão.
+# Global cache to avoid repeated disk reads during the session.
 CONFIG_CACHE = {}
 
 def load_configs_from_directory(subdir_path, subdir_name):
     """
-    Carrega, valida e armazena em cache as configurações TOML de um diretório específico.
-    Retorna uma lista ordenada de dicionários de configuração.
+    Loads, validates, and caches TOML configurations from a specific directory.
+    Returns an ordered list of configuration dictionaries.
     """
     if subdir_path in CONFIG_CACHE:
         return CONFIG_CACHE[subdir_path]
@@ -59,18 +59,18 @@ def load_configs_from_directory(subdir_path, subdir_name):
 
 def create_combo_node_class(class_name, display_name, subdir_path, subdir_name):
     """
-    Fábrica de classes: Gera dinamicamente uma classe de nó do ComfyUI.
+    Class factory: Dynamically generates a ComfyUI node class.
     """
     
     node_configs = load_configs_from_directory(subdir_path, subdir_name)
 
     class DynamicComboNode:
         CATEGORY = "MLV Combo Nodes"
-        RETURN_TYPES = ("STRING",)
+        RETURN_TYPES = ("STRING", )
         RETURN_NAMES = ("prompt",)
         FUNCTION = "execute"
 
-        @classmethod
+        @classmethodgit
         def INPUT_TYPES(cls):
             # --- INICIO DA MELHORIA: ADIÇÃO DA SEMENTE (SEED) ---
             # Adiciona uma entrada de semente. Isso força o ComfyUI a reexecutar o nó
@@ -79,7 +79,7 @@ def create_combo_node_class(class_name, display_name, subdir_path, subdir_name):
             required = {
                 "seed": ("INT", {"default": 0, "min": 0, "max": 0xffffffffffffffff}),
             }
-            # --- FIM DA MELHORIA ---
+            # --- END OF IMPROVEMENT ---
 
             if not node_configs:
                 required["error"] = ("STRING", {"default": f"No valid config files found in '{subdir_name}'. Check console for errors.", "multiline": True})
@@ -100,16 +100,16 @@ def create_combo_node_class(class_name, display_name, subdir_path, subdir_name):
             return {"required": required, "optional": optional}
 
         # --- INICIO DA MELHORIA: RECEBENDO A SEMENTE NA EXECUÇÃO ---
-        # A semente é agora um parâmetro explícito do método execute.
+        # The seed is now an explicit parameter of the execute method.
         def execute(self, seed, **kwargs):
-        # --- FIM DA MELHORIA ---
+        # --- END OF IMPROVEMENT ---
             if not node_configs:
                 return ("Error: No valid configuration files loaded.",)
 
             # --- INICIO DA MELHORIA: GERADOR ALEATÓRIO LOCAL ---
-            # Cria uma instância local do gerador de números aleatórios com base na semente.
-            # Isso garante que a aleatoriedade deste nó seja contida e reproduzível
-            # se a mesma semente for usada, sem afetar outros nós.
+            # Creates a local instance of the random number generator based on the seed.
+            # This ensures that the randomness of this node is contained and reproducible
+            # if the same seed is used, without affecting other nodes.
             rng = random.Random(seed)
             # --- FIM DA MELHORIA ---
             
@@ -123,8 +123,8 @@ def create_combo_node_class(class_name, display_name, subdir_path, subdir_name):
                 if selected_value == "RANDOM":
                     original_list = config["list_value"]
                     if original_list:
-                        # --- INICIO DA MELHORIA: USANDO O GERADOR LOCAL ---
-                        # Usa o gerador local (rng) em vez do global (random).
+                        # --- START OF IMPROVEMENT: USING THE LOCAL GENERATOR ---
+                        # Uses the local generator (rng) instead of the global one (random).
                         selected_value = rng.choice(original_list)
                         # --- FIM DA MELHORIA ---
                     else:
