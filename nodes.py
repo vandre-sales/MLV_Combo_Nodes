@@ -70,7 +70,7 @@ def create_combo_node_class(class_name, display_name, subdir_path, subdir_name):
         RETURN_NAMES = ("prompt",)
         FUNCTION = "execute"
 
-        @classmethodgit
+        @classmethod
         def INPUT_TYPES(cls):
             # --- INICIO DA MELHORIA: ADIÇÃO DA SEMENTE (SEED) ---
             # Adiciona uma entrada de semente. Isso força o ComfyUI a reexecutar o nó
