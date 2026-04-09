@@ -2,6 +2,8 @@
 
 import os
 from .nodes import create_combo_node_class
+from .joycaption_extra_mlv import JC_ExtraOptions_MLV
+from .joycaption_gguf_mlv import JC_GGUF_MLV
 
 # Dicionários que serão preenchidos dinamicamente e exportados
 NODE_CLASS_MAPPINGS = {}
@@ -28,6 +30,12 @@ if os.path.exists(configs_path) and os.path.isdir(configs_path):
             NODE_DISPLAY_NAME_MAPPINGS[class_name] = display_name
 else:
     print(f"AVISO [MLV Combo Nodes]: Diretório 'configs' não encontrado em '{configs_path}'. Nenhum nó será carregado.")
+
+# Registrar nodes JoyCaption MLV
+NODE_CLASS_MAPPINGS["JC_ExtraOptions_MLV"] = JC_ExtraOptions_MLV
+NODE_DISPLAY_NAME_MAPPINGS["JC_ExtraOptions_MLV"] = "JoyCaption Extra MLV"
+NODE_CLASS_MAPPINGS["JC_GGUF_MLV"] = JC_GGUF_MLV
+NODE_DISPLAY_NAME_MAPPINGS["JC_GGUF_MLV"] = "JoyCaption GGUF MLV"
 
 # Exporta o diretório de JavaScript para o frontend
 WEB_DIRECTORY = "./web"
